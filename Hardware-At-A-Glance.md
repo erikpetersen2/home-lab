@@ -5,7 +5,7 @@ hardware and software resources deployed in my environment, please visit the Net
 
 Network Hardware: 
 
-Cisco Business CBS110-24PP-D Unmanaged Switch (24 port partial PoE)
+Cisco Business CBS110-24PP-D Unmanaged Switch (24 port partial PoE) \
 Netgear WAX214PA wireless access point (x2)
 Netgear Nighthawk 6-Stream AX5400 WiFi 6 Router
 
