@@ -1,3 +1,3 @@
 # Home Network Configuration
-![Network Background](https://www.teahub.io/photos/full/226-2263470_network-infrastructure.jpg)
-![Home Network 2023](https://user-images.githubusercontent.com/73140219/184047398-47ed3980-ee0e-4116-940a-657a0e260d72.png)
+
+![Home Network 2023](https://user-images.githubusercontent.com/73140219/184439325-647effe0-423d-4a1a-b963-c23e4b7b9b8e.jpg)
