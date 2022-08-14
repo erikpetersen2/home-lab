@@ -12,7 +12,7 @@ Netgear Nighthawk 6-Stream AX5400 WiFi 6 Router
 <b>Server/Storage Hardware:</b> 
 
 Dell Optiplex 7070 (Ubuntu Server 20.04) \
-Synology D14 NAS (12 TB, Synology Intelligent RAID) \
+Synology D14 NAS (12 TB, Synology Hybrid RAID) \
 
 <b>Desktop Hardware: </b> 
 
