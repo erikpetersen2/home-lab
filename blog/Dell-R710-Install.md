@@ -20,6 +20,8 @@ overhead. After researching, I decided on the Dell PowerEdge R710 as its price p
 compensated for some of the feature restrictions (like being restricted to ESXi 6.7) for my use case. I also ordered 
 a 1 TB enterprise SSD, knowing full well that I would likely have to order another one in relatively short order. 
 
+![IMG_0900](https://user-images.githubusercontent.com/73140219/186260605-12881c1a-b6bb-4378-8960-da3e7b5a210c.jpg)
+
 # Prepping My Environment
 
 To be honest, there was not a ton of prep work to be done for this install. I already knew from the dimensions of the 
@@ -50,9 +52,12 @@ and then to install the ESXi .iso on a USB drive using Rufus, which can be downl
 # Installing ESXi 6.7
 
 Finally, TinyPilot hooked up and ready to go, server "installed" on the rack (yes, I said on, not in), and an ESXi 
-bootable USB in-hand, it was time to attempt the install. After working out the logistics of getting everything hooked 
-up (the VGA to HDMI adapter I purchased with the TinyPilot is active, requiring USB power, I had the USB stick itself, 
-then the TinyPilot also requires a USB connection to its host, and then the ethernet connections for both the TinyPilot 
+bootable USB in-hand, it was time to attempt the install. 
+
+![IMG_0903](https://user-images.githubusercontent.com/73140219/186260746-f97200d6-f0e4-441d-bbd2-13de2bfbec43.jpg)
+
+After working out the logistics of getting everything hooked up (the VGA to HDMI adapter I purchased with the TinyPilot is active, requiring USB power, 
+I had the USB stick itself, then the TinyPilot also requires a USB connection to its host, and then the ethernet connections for both the TinyPilot 
 and the server - and the USB stick I had wouldn't fit in the USB ports on the back of the server due to the housing on 
 the USB stick, but luckily the TinyPilot's included USB-C to USB-A cable was <i>just</i> long enough), I powered on the 
 R710 and was hit with my second issue: the server had been off for so long the RAID controller's battery had died. 
@@ -67,6 +72,9 @@ Reboot, boot into the configuration manager, set up a quick RAID 0 (I only have 
 the people whos blood pressure just spiked), saved the config, and rebooted again. Back through the ESXi install 
 prompts, a little more waiting while the installer does its thing, and then finally the message I'd been waiting for 
 all night: <b>Please remove all bootable media and reboot to complete installtion</b>. 
+
+![IMG_0904](https://user-images.githubusercontent.com/73140219/186260516-d6d82556-303d-4977-bba5-81fe76c62285.jpg)
+
 
 After another reboot, I was met with the ESXi welcome screen. After a few quick configurations (setting a root password, 
 changing the IP address from dynamic via DHCP to static (and then setting the subnet mask and default gateway), etc and 
@@ -99,3 +107,8 @@ All in all, I had a blast setting this thing up and adding it to my environment.
 a USB stick for the installer to pick one that isn't housed in a massive plastic shroud), I laughed, I cried... it 
 was a good time. Not only can I not wait to get to play around with this thing some more, I can't wait to get another 
 server and go through this process all over again!
+
+![IMG_0905](https://user-images.githubusercontent.com/73140219/186260953-cc9b4a7e-bf2b-438c-9a22-c0c2ec7d8253.jpg)
+
+![IMG_0901](https://user-images.githubusercontent.com/73140219/186260985-f68f7eec-48f6-4611-9a81-070d53afc586.jpg)
+
