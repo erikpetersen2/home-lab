@@ -18,4 +18,4 @@ figure out the topology so I knew what traffic was going where. After sketching 
 videos, scratching my designs, sketching further, etc etc, this is what I came up with and implemented into my 
 environment: 
 
-![load-balancer-diagram drawio](https://user-images.githubusercontent.com/73140219/186468960-b68526a7-71e3-4009-b437-c13c74d1bcd9.png)
+![load-balancer-diagram drawio (1)](https://user-images.githubusercontent.com/73140219/186469148-aa0d5375-a6e3-4e1f-bb2b-6cc2a92e0a04.png)
