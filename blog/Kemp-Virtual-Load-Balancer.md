@@ -19,3 +19,15 @@ videos, scratching my designs, sketching further, etc etc, this is what I came u
 environment: 
 
 ![load-balancer-diagram drawio (1)](https://user-images.githubusercontent.com/73140219/186469148-aa0d5375-a6e3-4e1f-bb2b-6cc2a92e0a04.png)
+
+As you can see, everything inbound to my private network passes through the load balancer, relying on the load balancer to 
+appropriately direct the traffic. Coupled with the DNS records for my public domain to allow listed subdomains to resolve, and 
+I've got public access to any of my services or resources I choose to expose to the internet, regardless of where it resides 
+in my hybrid cloud infrastructure. 
+
+# Prep Work 
+
+The preparation for this project is not too bad, namely consisting of you <b>registering for an account with Kemp</b>, which 
+will then allow you to <b>download the Kemp virtual load balancer .iso</b>. If you intend to also obtain and manage a public 
+domain,  you will also need to purchase a domain name or register a free domain name from somewhere like [freenom](https://www.freenom.com/en/index.html?lang=en). 
+Once you have your domain name and your Kemp .iso, you're ready to go!
